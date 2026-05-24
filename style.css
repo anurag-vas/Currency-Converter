@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: yellow;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    background-color: darkcyan;
+    color: aliceblue;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+.currency-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.currency-container select{
+    padding: 10px;
+}
+.currency-container input{
+    border: 0;
+    background: transparent;
+    font-size: 20px;
+    text-align: right;
+    color: aliceblue;
+}
+.exchange-rate{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+select:focus,input:focus{          /*outline ko zeroo kiya focus remove krke*/
+    outline: 0;
+}
